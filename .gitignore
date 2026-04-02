@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime data directories and files
+broker_data/
+subscriber_output/
+*.log
+*.tmp
+.tmp-*
+
+# Subscriber runtime state and lockfiles
+.state_*.json
+.state_*.lock
+
+# Environments and IDEs
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/

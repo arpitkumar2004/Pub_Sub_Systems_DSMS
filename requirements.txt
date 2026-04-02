@@ -1,0 +1,16 @@
+# =============================================================================
+# requirements.txt  —  Python dependencies for DSMS
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Python version: 3.8 or newer recommended
+# =============================================================================
+
+# psutil: cross-platform library for reading CPU, memory, and process info.
+# Used by publisher/metrics.py to collect per-process metrics.
+psutil
+
+# flask: lightweight web framework used to build the DSMS_SUB HTTP REST API.
+# Used by subscriber/dsms_sub.py to expose /subscribe, /logs, /status endpoints.
+flask
