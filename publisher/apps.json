@@ -1,0 +1,8 @@
+{
+    "server_id": "server0",
+    "apps": [
+        "brave",
+        "whatsapp",
+        "msedge"
+    ]
+}
