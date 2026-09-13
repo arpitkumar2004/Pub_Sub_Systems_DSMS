@@ -21,3 +21,8 @@ env/
 venv/
 .vscode/
 .idea/
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.synctex.gz
